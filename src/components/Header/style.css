@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    padding: 2rem 10rem 0 10rem;
+}
+
+div.container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+img#logo {
+    width: 167px;
+    height: 80px;
+}
+
+ul {
+    display: flex;
+
+    padding-right: 10rem;
+}
+
+ul li {
+    list-style: none;
+    padding: 15px;
+}
+
+ul li button {
+    background: #fff;
+    border: none;
+    color: #000;
+    border-radius: 30px;
+    width: 5rem;
+    height: 1.5rem;
+    transition: 0.2s;
+}
+
+ul li button:hover {
+    background: #d595f3;
+    color: #fff;
+}
+
+ul li button.selected {
+    background: #C164ED;
+    color: #fff;
+} 
+
+img#user {
+    width: 67px;
+}
